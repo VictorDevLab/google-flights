@@ -1,0 +1,53 @@
+export const flightsData = [
+    {
+        id: 1,
+        airline: "Uganda Airlines",
+        logo: "✈️",
+        departureTime: "10:10 PM",
+        arrivalTime: "7:35 AM",
+        nextDay: "+1",
+        duration: "11 hr 25 min",
+        route: "NBO–LDN",
+        stops: "1 stop",
+        stopDuration: "1 hr 10 min EBB",
+        emissions: "2,007 kg CO2e",
+        emissionChange: "+19% emissions",
+        emissionChangeColor: "text-orange-600",
+        price: "USD 835",
+        priceType: "round trip"
+    },
+    {
+        id: 2,
+        airline: "Kenya Airways",
+        logo: "🔴",
+        departureTime: "9:05 AM",
+        arrivalTime: "4:15 PM",
+        nextDay: "",
+        duration: "9 hr 10 min",
+        route: "NBO–LDN",
+        stops: "Nonstop",
+        stopDuration: "",
+        emissions: "1,686 kg CO2e",
+        emissionChange: "Avg emissions",
+        emissionChangeColor: "text-gray-600",
+        price: "USD 600",
+        priceType: "one way"
+    },
+    {
+        id: 3,
+        airline: "British Airways",
+        logo: "🔵",
+        departureTime: "8:15 AM",
+        arrivalTime: "3:25 PM",
+        nextDay: "",
+        duration: "9 hr 10 min",
+        route: "NBO–LDN",
+        stops: "Nonstop",
+        stopDuration: "",
+        emissions: "1,426 kg CO2e",
+        emissionChange: "-15% emissions",
+        emissionChangeColor: "text-green-600",
+        price: "USD 800",
+        priceType: "round trip"
+    }
+]
